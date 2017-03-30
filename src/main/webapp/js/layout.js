@@ -77,6 +77,7 @@ listeners : {
 urlss =  'http://127.0.0.1:8080/bse-business-web/zsource/productDefineIndex.action?standalone&exptoken=NDY5QzcyNUFBMEYyRENFOTIyNTk1MEU2M0IxNDcxNDIsZTI1NTczYWUtYjE5Ni00ZDRmLTk4OTEtNWVjMWFjODMwMjAwLDA4NDU0NCxXMDExMzAyMDIwNTE1LOS4iua1t+mXteihjOWMuua1puaxn+mVh+iQpeS4mumDqCwxNDkwMjU1NDc0OTkx';
 urlcc = 'http://10.226.96.104:8080/bse-business-web/zsource/commonSelectorTestPage.action?standalone&exptoken=NDY5QzcyNUFBMEYyRENFOTIyNTk1MEU2M0IxNDcxNDIsZTI1NTczYWUtYjE5Ni00ZDRmLTk4OTEtNWVjMWFjODMwMjAwLDA4NDU0NCxXMDExMzAyMDIwNTE1LOS4iua1t+mXteihjOWMuua1puaxn+mVh+iQpeS4mumDqCwxNDkwMjU1NDc0OTkx';
 url = 'www.baidu.com';
+    jsphtml = 'index.jsp';
 
 addbutton.on('click', function(){
 
@@ -84,7 +85,8 @@ if (win) {
 Ext.getCmp("tabpannel").add({
                         xtype: 'panel',
                         title: 'Tab 1' ,
-                        html : '<iframe scrolling="auto" frameborder="0" width="100%" height="100%" src="'+'url'+'"> </iframe>',
+                        html: jsphtml,
+                        //html : '<iframe scrolling="auto" frameborder="0" width="100%" height="100%" src="'+jsphtml+'"> </iframe>',
 						//http://www.baidu.com
 						/*
 						loader: {
@@ -162,9 +164,9 @@ id: 'training_grief_rep_tab_4',
 border: false, 
 deferredRender: false, 
 //items : new TrainingBriefSummaryItem({sunmmaryId: tariningId}), 
-autoScroll : true, 
-html:' <iframe scrolling="auto" frameborder="0" width="100%" height="100%" src="'+'http://www.baidu.com'+'"> </iframe>' 
-} 
+autoScroll : true,
+html:' <iframe scrolling="auto" frameborder="0" width="100%" height="100%" src="'+'http://www.baidu.com'+'"> </iframe>'
+}
 						//,{
                         //title: 'AJAX消息',
                         //autoLoad: { url: 'AjaxTabContent', params: { data: "从客户端传入的参数" }, method: 'GET' }  
