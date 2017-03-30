@@ -2,5 +2,8 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/js/ext-all-debug.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/js/ext-theme-classic-all-debug.css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/js/layout.js" charset="GBK" />
   </component>
 </project>
